@@ -14,4 +14,4 @@ class User(Base):
     is_active = Column(Boolean, default=True)
     is_admin = Column(Boolean, default=False)
     is_supplier = Column(Boolean, default=False)
-    is_customer = Column(Boolean, default=False)
+    is_customer = Column(Boolean, default=True)
